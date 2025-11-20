@@ -10,93 +10,99 @@
         </div>
         <div class="grid grid-cols-1 gap-4 mt-4 leading-7 text-gray-900 border-0 border-gray-200 sm:mt-6 sm:gap-6 md:mt-8 md:gap-0 lg:grid-cols-3">
             <!-- Price 1 -->
-            <div class="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8" data-rounded="rounded-lg" data-rounded-max="rounded-full">
+            <div class="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 lg:-mr-3 sm:my-0 sm:p-6 md:my-8 md:p-8" data-rounded="rounded-lg" data-rounded-max="rounded-full">
                 <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
                     Starter
                 </h3>
                 <div class="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p class="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        $5
+                        100.000
                     </p>
                     <p class="box-border m-0 border-solid" style="border-image: initial;">
-                        / month
+                        / Perbaikan
                     </p>
                 </div>
                 <p class="mt-6 mb-5 text-base leading-normal text-left text-gray-900 border-0 border-gray-200">
-                    Ideal for Startups and Small Companies
+                    Cocok untuk masalah elektronik yang sederhana
                 </p>
                 <ul class="flex-1 p-0 mt-4 ml-5 leading-7 text-gray-900 border-0 border-gray-200">
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" data-primary="blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        Automated Reporting
+                        Diagnosis Masalah
                     </li>
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" data-primary="blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        Faster Processing
+                        Perbaikan Sederhana
                     </li>
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" data-primary="blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        Customizations
+                        Garansi 1 Bulan
                     </li>
                 </ul>
                 <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-blue-600 no-underline bg-transparent border border-blue-600 rounded-md cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg" data-primary="blue-600" data-rounded="rounded-md">
-                    Select Plan
+                    Pilih Paket
                 </button>
             </div>
             <!-- Price 2 -->
-            <div class="relative z-20 flex flex-col items-center max-w-md p-4 mx-auto my-0 bg-white border-4 border-blue-600 border-solid rounded-lg sm:p-6 md:px-8 md:py-16" data-primary="blue-600" data-rounded="rounded-md" data-rounded-max="rounded-full">
+            <div class="relative z-20 flex flex-col items-center max-w-md p-4 mx-auto my-0 bg-white border border-solid rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 sm:p-6 md:px-8 md:py-16" data-primary="blue-600" data-rounded="rounded-md" data-rounded-max="rounded-full">
                 <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
                     Basic
                 </h3>
                 <div class="flex items-end mt-6 leading-7 text-gray-900 border-0 border-gray-200">
                     <p class="box-border m-0 text-6xl font-semibold leading-none border-solid">
-                        $15
+                        150.000
                     </p>
                     <p class="box-border m-0 border-solid" style="border-image: initial;">
-                        / month
+                        / Perbaikan
                     </p>
                 </div>
                 <p class="mt-6 mb-5 text-base leading-normal text-left text-gray-900 border-0 border-gray-200">
-                    Ideal for medium-size businesses to larger businesses
+                    Cocok untuk masalah elektronik yang sedang
                 </p>
                 <ul class="flex-1 p-0 mt-4 leading-7 text-gray-900 border-0 border-gray-200">
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" data-primary="blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        Everything in Starter
+                        Diagnosis masalah lebih mendalam
                     </li>
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" data-primary="blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        100 Builds
+                        Perbaikan komponen
                     </li>
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" data-primary="blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        Progress Reports
+                        Garansi 3 Bulan
                     </li>
                     <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
                         <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" data-primary="blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                         </svg>
-                        Premium Support
+                        Kounsultasi Gratis
+                    </li>
+                    <li class="inline-flex items-center block w-full mb-2 ml-5 font-semibold text-left border-solid">
+                        <svg class="w-5 h-5 mr-2 font-semibold leading-7 text-blue-600 sm:h-5 sm:w-5 md:h-6 md:w-6" data-primary="blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        Gratis Biaya Antar Jemput
                     </li>
                 </ul>
-                <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-white no-underline bg-blue-600 border rounded-md cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg" data-primary="blue-600" data-rounded="rounded-md">
+               <button class="inline-flex justify-center w-full px-4 py-3 mt-8 font-sans text-sm leading-none text-center text-blue-600 no-underline bg-transparent border border-blue-600 rounded-md cursor-pointer hover:bg-blue-700 hover:border-blue-700 hover:text-white focus-within:bg-blue-700 focus-within:border-blue-700 focus-within:text-white sm:text-base md:text-lg" data-primary="blue-600" data-rounded="rounded-md">
                     Select Plan
                 </button>
             </div>
             <!-- Price 3 -->
-            <div class="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg lg:-ml-3 sm:my-0 sm:p-6 md:my-8 md:p-8" data-rounded="rounded-lg" data-rounded-max="rounded-full">
+            <div class="relative z-10 flex flex-col items-center max-w-md p-4 mx-auto my-0 border border-solid rounded-lg transition-transform duration-300 ease-in-out hover:scale-105 lg:-ml-3 sm:my-0 sm:p-6 md:my-8 md:p-8" data-rounded="rounded-lg" data-rounded-max="rounded-full">
                 <h3 class="m-0 text-2xl font-semibold leading-tight tracking-tight text-black border-0 border-gray-200 sm:text-3xl md:text-4xl">
                     Plus
                 </h3>

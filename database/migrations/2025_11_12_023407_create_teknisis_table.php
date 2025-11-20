@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('teknisis', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('no_hp')->unique();
+            $table->string('keahlian');
+            $table->string('path_foto')->nullable();
             $table->timestamps();
         });
     }
