@@ -41,7 +41,7 @@ class TeknisiResource extends Resource
                     ->image()
                     ->disk('public')
                     ->directory('teknisi_foto')
-                    ->required(),
+                    ->nullable(),
             ]);
     }
 

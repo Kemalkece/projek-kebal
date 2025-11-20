@@ -10,5 +10,6 @@ class Teknisi extends Model
         'name',
         'no_hp',
         'keahlian',
+        'path_foto',
     ];
 }
