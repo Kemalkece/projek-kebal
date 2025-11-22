@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TeknisiController;
 
+
 // Route::get('/', function () {
 //     return view('home');
 // });
@@ -11,3 +12,6 @@ use App\Http\Controllers\TeknisiController;
 // });
 
 Route::get('/', [TeknisiController::class, 'index'])->name('teknisi.index');
+
+Route::get('/artikel', [TeknisiController::class, 'index'])->name('artikel.index');
+
