@@ -1,4 +1,4 @@
-<nav class="relative z-50 h-24 select-none bg-[#1B2533]" x-data="{ showMenu: false }">
+<nav class="sticky top-0 z-50 h-24 select-none bg-[#1B2533]" x-data="{ showMenu: false }">
     <div class="container flex overflow-hidden relative flex-wrap justify-between items-center mx-auto h-24 font-medium border-b border-gray-200 md:overflow-visible lg:justify-center sm:px-4 md:px-2 lg:px-0">
         <div class="flex justify-start items-center pr-4 w-1/4 h-full">
             <a href="#_" class="flex items-center py-4 space-x-2 font-extrabold text-white md:py-0">
@@ -19,7 +19,7 @@
                     <a href="/" class="inline-block py-2 mx-0 ml-6 w-full font-medium text-left text-white hover:text-gray-300 md:ml-0 md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Home</a>
                     <a href="#teknisi" class="inline-block py-2 mx-0 w-full font-medium text-left text-gray-300 hover:text-white md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Teknisi</a>
                     <a href="#price" class="inline-block py-2 mx-0 w-full font-medium text-left text-gray-300 hover:text-white md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Price</a>
-                    <a href="#_" class="inline-block py-2 mx-0 w-full font-medium text-left text-gray-300 hover:text-white md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Artikel</a>
+                    <a href="#artikel" class="inline-block py-2 mx-0 w-full font-medium text-left text-gray-300 hover:text-white md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Artikel</a>
                     <a href="#_" class="inline-block py-2 mx-0 w-full font-medium text-left text-gray-300 hover:text-white md:w-auto md:px-0 md:mx-2 lg:mx-3 md:text-center">Tentang Kami</a>
                 </div>
                 <div class="flex flex-col justify-end items-start pt-4 w-full md:items-center md:w-1/3 md:flex-row md:py-0">

@@ -21,23 +21,49 @@
             @forelse($teknisis as $teknisi)
                 <div class="bg-white shadow-md rounded-xl p-6 border border-gray-100 hover:shadow-xl transition-all duration-300">
                     
-                    <div class="flex items-center gap-4">
-                        <div class="w-20 h-20 rounded-full overflow-hidden border border-gray-200">
+                    <!-- Foto Profil -->
+                    <div class="flex justify-center mb-5">
+                        <div class="w-24 h-24 rounded-full overflow-hidden border-4 border-purple-400 shadow-lg">
                             <img src="{{ asset('storage/' . $teknisi->path_foto) }}"
-                                 alt="Foto Teknisi"
+                                 alt="Foto {{ $teknisi->name }}"
                                  class="w-full h-full object-cover">
-                        </div>
-
-                        <div>
-                            <h4 class="text-xl font-semibold text-gray-800">{{ $teknisi->name }}</h4>
-                            <p class="text-gray-600 text-sm">{{ $teknisi->no_hp }}</p>
                         </div>
                     </div>
 
-                    <p class="mt-4 text-gray-700">{{ $teknisi->keahlian }}</p>
+                    <!-- Informasi Teknisi -->
+                    <div class="space-y-4">
+                        <!-- Nama -->
+                        <div class="text-center">
+                            <h4 class="text-2xl font-bold text-gray-800">{{ $teknisi->name }}</h4>
+                        </div>
+
+                        <!-- Divider -->
+                        <div class="border-t border-gray-200"></div>
+
+                        <!-- Nomor HP -->
+                        <div>
+                            <p class="text-xs font-semibold text-purple-600 uppercase mb-1">Nomor Hp</p>
+                            <p class="text-gray-800 font-medium">{{ $teknisi->no_hp }}</p>
+                        </div>
+
+                        <!-- Keahlian -->
+                        <div>
+                            <p class="text-xs font-semibold text-purple-600 uppercase mb-1">Keahlian</p>
+                            <p class="text-gray-800 font-medium">{{ $teknisi->keahlian }}</p>
+                        </div>
+
+                        <!-- Deskripsi -->
+                        <div>
+                            <p class="text-xs font-semibold text-purple-600 uppercase mb-1">Deskripsi</p>
+                            <p class="text-gray-700 leading-relaxed">{{ $teknisi->deskripsi }}</p>
+                        </div>
+                    </div>
+
                 </div>
             @empty
-                <p class="text-gray-500 text-center col-span-3">Tidak ada teknisi tersedia.</p>
+                <div class="col-span-full text-center py-12">
+                    <p class="text-gray-500 text-lg">Tidak ada teknisi tersedia.</p>
+                </div>
             @endforelse
         </div>
 

@@ -42,6 +42,9 @@ class TeknisiResource extends Resource
                     ->disk('public')
                     ->directory('teknisi_foto')
                     ->nullable(),
+                TextInput::make('deskripsi')
+                    ->required()
+                    ->maxLength(255),
             ]);
     }
 
@@ -52,6 +55,7 @@ class TeknisiResource extends Resource
                 TextColumn::make('name'),
                 TextColumn::make('no_hp'),
                 TextColumn::make('keahlian'),
+                TextColumn::make('deskripsi'),
                 ImageColumn::make('path_foto')
                     ->label('foto')
                     ->width(100)

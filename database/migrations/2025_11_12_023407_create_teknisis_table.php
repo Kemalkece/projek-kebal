@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('no_hp')->unique();
             $table->string('keahlian');
+            $table->string('deskripsi');
             $table->string('path_foto')->nullable();
             $table->timestamps();
         });

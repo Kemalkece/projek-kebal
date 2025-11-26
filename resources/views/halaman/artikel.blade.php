@@ -1,4 +1,4 @@
-<section class="py-20 bg-[#0d141c]">
+<section class="py-20 bg-[#0d141c]" id="artikel">
 
     <style>
         .article-card {

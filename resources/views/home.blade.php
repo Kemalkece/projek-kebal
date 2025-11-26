@@ -16,5 +16,6 @@
     @include('halaman.teknisi')
     @include('halaman.price')
     @include('halaman.artikel')
+    @include('halaman.footer')
 </body>
 </html>
