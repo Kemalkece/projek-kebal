@@ -192,7 +192,7 @@
         <div class="mt-16 text-center">
             <p class="text-gray-400">
                 Butuh paket khusus? 
-                <a href="#" class="text-blue-400 hover:text-blue-300 font-medium underline">Hubungi kami</a> 
+                <a href="https://wa.me/085175220149" class="text-blue-400 hover:text-blue-300 font-medium underline">Hubungi kami</a> 
                 untuk penawaran custom
             </p>
         </div>

@@ -71,9 +71,9 @@
 
     </div>
 
-    <!-- Article Modal -->
-    <div id="articleModal" class="fixed inset-0 bg-black/95 backdrop-blur-sm z-50 overflow-y-auto hidden">
-        <div class="min-h-screen px-4 py-20">
+         <!-- Article Modal -->
+            <div id="articleModal" class="fixed inset-0 bg-black/95 backdrop-blur-sm z-50 overflow-y-auto hidden">
+            <div class="min-h-screen px-4 py-20">
             <div class="max-w-4xl mx-auto">
                 
                 <!-- Close Button -->

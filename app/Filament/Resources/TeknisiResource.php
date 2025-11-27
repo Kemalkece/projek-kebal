@@ -25,6 +25,8 @@ class TeknisiResource extends Resource
 
     protected static ?string $navigationLabel = 'Teknisi';
 
+     protected static ?string $pluralModelLabel = 'Teknisi';
+
     public static function form(Form $form): Form
     {
         return $form
