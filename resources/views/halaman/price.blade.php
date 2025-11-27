@@ -1,7 +1,7 @@
-<section class="py-20 lg:py-32 bg-gradient-to-br from-[#0d1117] to-[#0a0e14] relative overflow-hidden" id="price">
+<section class="py-20 lg:py-32 bg-gradient-to-br from-[#0d1117] to-[#0a0e14] relative overflow-visible" id="price">
     
     <!-- Background Effects -->
-    <div class="absolute inset-0 overflow-hidden pointer-events-none opacity-30">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none opacity-30 -z-10">
         <div class="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl"></div>
         <div class="absolute bottom-1/4 left-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl"></div>
     </div>
@@ -66,15 +66,16 @@
                         </li>
                     </ul>
 
-                    <button class="w-full py-3 bg-white/5 hover:bg-white/10 text-white font-semibold rounded-xl border border-gray-700 hover:border-gray-600 transition-all duration-300">
-                        Pilih Paket
-                    </button>
+                    <a href="{{ route('order.form', 'starter') }}">
+                        <button class="w-full py-3 bg-white/5 hover:bg-white/10 text-white font-semibold rounded-xl border border-gray-700 hover:border-gray-600 transition-all duration-300">
+                            Pilih Paket
+                        </button>
+                    </a>
                 </div>
             </div>
 
-            <!-- Basic Package (Popular) -->
+            <!-- Basic Package -->
             <div class="group relative lg:-mt-4">
-                <!-- Popular Badge -->
                 <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 z-20">
                     <span class="inline-flex items-center px-4 py-1 bg-gradient-to-r from-blue-500 to-purple-600 text-white text-sm font-semibold rounded-full shadow-lg">
                         <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
@@ -131,9 +132,11 @@
                         </li>
                     </ul>
 
-                    <button class="w-full py-3 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/25 transition-all duration-300 transform hover:scale-105">
-                        Pilih Paket
-                    </button>
+                    <a href="{{ route('order.form', 'basic') }}">
+                        <button class="w-full py-3 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold rounded-xl shadow-lg shadow-blue-500/25 transition-all duration-300 transform hover:scale-105">
+                            Pilih Paket
+                        </button>
+                    </a>
                 </div>
             </div>
 
@@ -180,9 +183,11 @@
                         </li>
                     </ul>
 
-                    <button class="w-full py-3 bg-white/5 hover:bg-white/10 text-white font-semibold rounded-xl border border-gray-700 hover:border-gray-600 transition-all duration-300">
-                        Pilih Paket
-                    </button>
+                    <a href="{{ route('order.form', 'plus') }}">
+                        <button class="w-full py-3 bg-white/5 hover:bg-white/10 text-white font-semibold rounded-xl border border-gray-700 hover:border-gray-600 transition-all duration-300">
+                            Pilih Paket
+                        </button>
+                    </a>
                 </div>
             </div>
 
